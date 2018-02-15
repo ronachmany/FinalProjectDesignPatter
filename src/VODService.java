@@ -15,7 +15,7 @@ public class VODService {
         this.catalog.add(item);
     }
 
-    public Playable OrderMovie(String name){
+    public Playable OrderMovie(){
         for (Playable item: this.catalog
              ) {
             if(item instanceof Movie){
@@ -26,7 +26,7 @@ public class VODService {
         return null;
     }
 
-    public Playable OrderSeries(String name){
+    public Playable OrderSeries(){
         for (Playable item: this.catalog
                 ) {
             if(item instanceof Series){
