@@ -1,7 +1,9 @@
+package Home.items.TV;
+
 /**
  * Created by hackeru on 15/02/2018.
  */
-public class Episode implements Playable{
+public class Episode implements Playable {
     private String name;
     private PlayState state;
 
